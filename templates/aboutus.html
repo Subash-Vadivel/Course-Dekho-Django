@@ -1,0 +1,252 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <style>
+        .card:hover {
+      transform: scale(1.05);
+       }
+       .special{
+         font-family: Arial, Helvetica, sans-serif;
+         color: rgb(212,175,55);
+       }
+       .special:hover{
+         color:rgb(211,211,211);
+       }
+      </style>
+      
+    <script src="event.js">
+    </script>
+</head>
+<body> 
+    <!-----------------------------------------------------------------------------HEADER-------------------------------------------------------------------------->
+<header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><h1 class="special" id="bname">Course Dékhò</h1></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item px-2">
+                <a class="nav-link" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item px-2 dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Courses
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="development.html">Developement</a></li>
+                  <li><a class="dropdown-item" href="#">Business</a></li>
+                  <li><a class="dropdown-item" href="#">Finance & Accounting</a></li>
+                  <li><a class="dropdown-item" href="#">IT & software</a></li>
+                  <li><a class="dropdown-item" href="#">Photography</a></li>
+                  <li><a class="dropdown-item" href="#">IOT</a></li>
+                  <li><a class="dropdown-item" href="#">Arts</a></li>
+                  <li><a class="dropdown-item" href="#">Office Productivity</a></li>
+                </ul>
+              </li>
+              <li class="nav-item px-2">
+                <a class="nav-link  active" href="aboutus.html">About Us</a>
+              </li>
+              
+              <li class="nav-item px-2">
+                <a class="nav-link " href="cart.html">Cart</a>
+              </li>
+            </ul>
+            <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
+                <form class="nav-item px-2 d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                  </form>
+              <li class="nav-item px-2 float-left">
+                <a class="nav-link " href="login.html">Login</a>
+              </li>
+              <li class="nav-item px-2 float-left">
+                <a class="nav-link " href="signup.html">Sign Up</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+</header>
+<!----------------------------------------------------------------BODY------------------------------------------------------------------------>
+<div class="row g-0" >
+    <div class="col-md-12" style="background-image: url(/static/img/bgimg.jfif);background-size: 100%; background-repeat: no-repeat; padding: 150px;"><h2 style="text-align:center; color:beige;font-size: 22px; font-style: italic;"><b>"Being ignorant is not so much a shame, as being unwilling to learn."</b></div>
+ </div>
+ <div class="container">
+
+    <h1>About <b>Course Dekho</b></h1><br/><br/>
+    <p style="text-indent: 4em;font-size:larger;">
+    Welcome to Course Dekho, your number one source for all things is knowledge. We're dedicated to giving you the very best education, with a focus on self Developement skills,communication skills, knowledge.
+              Founded in 2022 by Subash, Course Dekho has come a long way from its beginnings in Erode. When Subash first started out, his passion for providing knowledge to everyone drove them to quit day job, do tons of research so that Course Dekho can offer you the world's most advanced toothbrush Education. We now serve customers all over the world, and are thrilled that we're able to turn our passion into our own website.
+              we hope you enjoy our Courses as much as we enjoy offering them to you.                     Finally, this is our complete about us page about details are showing what is the motive to create Course Dekho. 
+              If you have any questions or comments, please don't hesitate to contact us. <br/>
+    </p>
+    <p>
+    
+    <span style="float:right; font-size: larger; color: black;"><b>Sincerely,</b></span><br><br>   
+    <span style="float:right; font-size: larger;">Subash V</span>
+    </p>
+    <br/>
+    </div>
+    <br> <br>
+    <h1 style="text-indent: 4em;">Time Line</h1><br>
+   <div class="row g-0">
+     
+     <div class="col-md-2"></div>
+     <div class="col-md-8" style="text-align: center;">
+       <img class="img-fluid" src="{% static 'img/Course Dekho timeline.png' %}" alt="Loading">
+     </div>
+     <div class="col-md-2"></div>
+   </div>
+   <br>
+   <br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!---------------------------------------------------------------FOOTER----------------------------------------------------------------------->
+<footer
+     class="text-center text-lg-start text-white "
+     style="background-color:black; bottom: 0%;"
+     >
+<div class="container p-4 pb-0">
+
+ <section class="">
+   
+   <div class="row">
+     
+     <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+       <h3 class="text-uppercase mb-4 font-weight-bold" >
+         Course Dekho
+       </h3>
+       <p>
+         We are delighted to provide a great service to those who are seeking to get 
+         an oppourtunity to develop them self to the great extend by gaining the knowledge.
+       </p>
+     </div>
+    
+
+     <hr class="w-100 clearfix d-md-none" />
+
+    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+       <h6 class="text-uppercase mb-4 font-weight-bold">Products</h6>
+       <p>
+         <a class="text-white" style="text-decoration: none">Help and Support</a>
+       </p>
+       <p>
+         <a class="text-white" style="text-decoration: none">Affiliate</a>
+       </p>
+       <p>
+         <a class="text-white" style="text-decoration: none">Blog</a>
+       </p>
+       <p>
+         <a class="text-white" style="text-decoration: none">Cookie settings</a>
+       </p>
+     </div>
+    
+
+     <hr class="w-100 clearfix d-md-none" />
+
+     
+     <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+       <h6 class="text-uppercase mb-4 font-weight-bold">
+         About us
+       </h6>
+       <p>
+         <a class="text-white" style="text-decoration: none">Contact</a>
+       </p>
+       <p>
+         <a class="text-white" style="text-decoration: none">Become an Affiliate</a>
+       </p>
+       <p>
+         <a class="text-white" style="text-decoration: none">Careers</a>
+       </p>
+       <p>
+         <a class="text-white" style="text-decoration: none">Accessibility statement</a>
+       </p>
+     </div>
+
+     <hr class="w-100 clearfix d-md-none" />
+
+     <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+       <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
+       <p><i class="bi bi-house-door-fill"></i> 4th Avenue, Thindal, Erode</p>
+       <p><i class="bi bi-envelope mr-3"></i> coursedekho@gmail.com</p>
+       <p><i class="bi bi-telephone"></i> +91 999-432-0743</p>
+       <p><i class="bi bi-chat-left-text"></i> +91  877-786-5364</p>
+     </div>
+   </div>
+ </section>
+
+ <hr class="my-3">
+ <section class="p-3 pt-0">
+   <div class="row d-flex align-items-center">
+     <div class="col-md-7 col-lg-8 text-center text-md-start">
+       <div class="p-3">
+         © 2022 Copyright:
+         <a class="text-white" style="text-decoration: none" href="https://mdbootstrap.com/"
+            >CourseDekho.com</a
+           >
+       </div>
+     </div>
+     <div class="col-md-5 col-lg-4 ml-lg-0 text-center text-md-end">
+       <a
+       href="https://www.facebook.com/profile.php?id=100080310560709"
+          class="btn btn-outline-light btn-floating m-2"
+          class="text-white"
+          role="button"
+          ><i class="bi bi-facebook"></i></a>
+
+       <a
+       href="https://twitter.com/DekhoCourse?t=zCfiRckbXfczXGtMZJRU9A&s=03"
+          class="btn btn-outline-light btn-floating m-1"
+          class="text-white"
+          role="button"
+          ><i class="bi bi-twitter"></i></a>
+
+       <a
+       href="mailto:coursedekhov2@gmail.com"
+          class="btn btn-outline-light btn-floating m-1"
+          class="text-white"
+          role="button"
+          ><i class="bi bi-google"></i
+         ></a>
+         <a href="https://linkedin.com/in/course-dekho-27b293238"
+         class="btn btn-outline-light btn-floating m-1"
+          class="text-white"
+          role="button"> <i class="bi bi-linkedin"></i></a>
+          <a
+       href="https://instagram.com/coursedekho_v2?igshid=YmMyMTA2M2Y="
+          class="btn btn-outline-light btn-floating m-1"
+          class="text-white"
+          role="button"
+          ><i class="bi bi-instagram"></i
+         ></a>
+     </div>
+   </div>
+ </section>
+</div>
+</footer>
+<!----------------------------------------------------------------------------------------------------------------------------------------------------------------->
+</body>
+</html>

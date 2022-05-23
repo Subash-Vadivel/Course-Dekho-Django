@@ -1,0 +1,160 @@
+.body{
+    background-color:#6BC0C4;
+}
+
+.navlist{
+    background-color: black;
+    overflow: hidden;
+    list-style-type: none;
+    margin: 0;
+    padding: 5px 5px;
+    font-size:x-large;
+    border-radius: 2px;
+    border-color: floralwhite;
+}
+.navbar{
+    float: left;
+    color: floralwhite;
+    padding: 10px 20px;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    height: 100%;
+  
+}
+.navlist a:hover{
+    background-color:aliceblue;
+   color: black;
+}
+.footernav{
+    font-size:large;
+    list-style-type: none;
+}
+.footer{
+    background-color: black;
+    color:floralwhite;
+    overflow: hidden;
+    position:static;
+    width: 100%;
+    bottom: 0;
+}
+.hcontainer{
+    background-color:black;
+    color: aliceblue;
+    text-align: center;
+    font-size: xx-large;
+    border: 5px outset beige;
+    padding: 20px 20px;
+}
+.navcontainer{
+    left: 10cm;
+    top: 10cm;
+    
+}
+.leftpane{
+    float: left;
+    font-size: larger;
+    text-indent: 2em;
+}
+.rightpane{
+    float: right;
+    
+}
+.mainframeindex{
+    margin-top: 25%;
+    font-size: larger;
+}
+.bglogoimg{
+  
+    background-attachment:fixed;
+    background-repeat:no-repeat;
+    background-position:50% 50%;
+    z-index:1;
+
+}
+.login{
+    
+    float:right;
+    color: floralwhite;
+    padding: 10px 20px;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    height: 100%;
+}
+
+.drop .coursebutton{
+    color: floralwhite;
+    padding: 10px 20px;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    height: 100%;
+    background-color: inherit;
+    outline: none;
+    border: none;
+    font-family: inherit;
+    margin: 0%;
+    font-size: x-large;
+}
+.dropdown-course{
+    display: none;
+    position:absolute;
+    color:floralwhite;
+    background-color: black;
+   text-align: center;
+   text-decoration: none;
+}
+.dropdown-course a{
+    color:floralwhite;
+    background-color: black;
+    text-decoration: none;
+    text-align: left;
+}
+.drop:hover .dropdown-course{
+    display: block;
+}
+.coursebutton{
+    float: left;
+    overflow: hidden;
+}
+.drop{
+    float: left;
+    overflow: hidden;
+}
+.logform{
+    font-size: x-large;
+    border-radius: 2cm;
+    border-color: black;
+    background-color: rgba(75, 70, 70, 0.13);
+    background-size: 100%;
+    color: black;
+    height:6cm;
+    width: 10cm;
+    margin-left:12cm;
+    margin-top: 5cm;
+    padding: 2cm 2cm;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.loginbody{
+    background-color: aliceblue;
+    background-image: url("bgimglogin.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.signform{
+        font-size: x-large;
+        border-radius: 2cm;
+        border-color: black;
+        background-color: rgba(75, 70, 70, 0.13);
+        background-size: 100%;
+        color: black;
+        height:20cm;
+        width: 10cm;
+        margin-left:12cm;
+        margin-top: 2cm;
+        padding: 2cm 2cm 2cm 2cm;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+}

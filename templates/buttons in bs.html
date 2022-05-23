@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ex</title>
+    </head>
+    <body>
+        <script defer>
+            name = window.prompt("enter name:");
+            window.alert("welcome "+name);
+
+            for(i=0;i<10;i++)
+            {
+                document.writeln(i,"<br>");
+            }
+            details = {
+                fname:'sridhar',
+                age:18
+            };
+            for (i in details){
+                document.writeln(i,":",details[i],"<br>");
+            }
+            li = ["name","age","rollno"];
+            for (i of li){
+                document.write(i,"<br>");
+            }
+            name = "sridhar"
+            for(i of name){
+                document.write(i,"<br>");
+            }
+            days = ["sunday","monday","tuesday","wednesday","thursday","friday","saturday"];
+            n = 15;
+            num = n.toString();
+            document.write(typeof(num),"<br>");
+            x = parseInt(num);
+            document.write(typeof(x),"<br>");
+            date = new Date();
+            document.write(date,"<br>");
+            document.write(date.getHours(),"<br>");
+            document.write(date.getMinutes(),"<br>");
+            document.write(date.getSeconds(),"<br>");
+            document.write(date.getDate(),"<br>");
+            document.write(date.getFullYear(),"<br>");
+            document.write(date.getMonth(),"<br>");
+            document.write(days[date.getDay()],"<br>");
+            console.log("sridhar");
+            
+        </script>
+    </body>
+</html>
